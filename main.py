@@ -27,7 +27,7 @@ scissors = '''
 '''
 
 #Write your code below this line 👇
-user_input=int(input("Enter a number 1: rock, 2:paper ,3:scissors"))
+user_input=int(input("Enter a number 1: rock, 2:paper ,3:scissors  :"))
 computer_choice = random.randint(1,3)
 
 if user_input ==1 and computer_choice==1:
@@ -57,3 +57,6 @@ elif user_input ==3 and computer_choice==2:
 elif user_input ==3 and computer_choice==3:
   print(f"Your Choice is : \n{scissors}\n Computer Choice is :\n {scissors}")
   print("Its a draw game")
+
+print("Game over !!")
+print("Designed and created by : the diaspora boy")
