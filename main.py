@@ -40,22 +40,22 @@ elif user_input ==1 and computer_choice==3:
   print(f"Your Choice is : \n{rock}\n Computer Choice is :\n {scissors}")
   print("You win")
 elif user_input ==2 and computer_choice==1:
-  print(f"Your Choice is : \n{paper}\n Computer Choice is :\n {rock}")
+  print("Your choice is\n" + paper+ "Computer choice is\n" + rock)
   print("You win")
 elif user_input ==2 and computer_choice==2:
-  print(f"Your Choice is : \n{paper}\n Computer Choice is :\n {paper}")
+  print("Your choice is\n" + paper+ "Computer choice is\n" + paper)
   print("You draw")
 elif user_input ==2 and computer_choice==3:
-  print(f"Your Choice is : \n{paper}\n Computer Choice is :\n {scissors}")
+  print("Your choice is\n" + paper+ "Computer choice is\n" + scissors)
   print("You lose")
 elif user_input ==3 and computer_choice==1:
-  print(f"Your Choice is : \n{scissors}\n Computer Choice is :\n {rock}")
+  print("Your choice is\n" + scissors+ "Computer choice is\n" + rock)
   print("You lose")
 elif user_input ==3 and computer_choice==2:
-  print(f"Your Choice is : \n{scissors}\n Computer Choice is :\n {paper}")
+  print("Your choice is\n" + scissors+ "Computer choice is\n" + paper)
   print("You Win")
 elif user_input ==3 and computer_choice==3:
-  print(f"Your Choice is : \n{scissors}\n Computer Choice is :\n {scissors}")
+  print("Your choice is\n" + scissors+ "Computer choice is\n" + scissors)
   print("Its a draw game")
 else:
   print("Err!!Please input a number from 1-3")
