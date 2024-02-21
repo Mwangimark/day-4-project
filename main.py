@@ -31,13 +31,13 @@ user_input=int(input("Enter a number 1: rock, 2:paper ,3:scissors  :"))
 computer_choice = random.randint(1,3)
 
 if user_input ==1 and computer_choice==1:
-  print(f"Your Choice is :\n{rock}\n Computer Choice is :\n{rock}")
+  print("Your choice is\n" + rock+ "Computer choice is\n" + rock)
   print("you draw")
 elif user_input ==1 and computer_choice==2:
-  print(f"Your Choice is : \n{rock}\n Computer Choice is :\n {paper}")
+  print("Your choice is\n" + rock+ "Computer choice is\n" + paper)
   print("You Lose")
 elif user_input ==1 and computer_choice==3:
-  print(f"Your Choice is : \n{rock}\n Computer Choice is :\n {scissors}")
+  print("Your choice is\n" + rock+ "Computer choice is\n" + scissors)
   print("You win")
 elif user_input ==2 and computer_choice==1:
   print("Your choice is\n" + paper+ "Computer choice is\n" + rock)
