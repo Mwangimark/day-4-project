@@ -57,6 +57,8 @@ elif user_input ==3 and computer_choice==2:
 elif user_input ==3 and computer_choice==3:
   print(f"Your Choice is : \n{scissors}\n Computer Choice is :\n {scissors}")
   print("Its a draw game")
+else:
+  print("Err!!Please input a number from 1-3")
 
 print("Game over !!")
 print("Designed and created by : the diaspora boy")
